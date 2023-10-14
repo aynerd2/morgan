@@ -122,7 +122,7 @@ const Employers = () => {
     <div>
 
       <div class="relative">
-        <img src="./assets/nl.jpg" alt="cover Image" class="inset-0 object-cover w-full" />
+        <img src="./assets/nl.jpg" alt="cover" class="inset-0 object-cover w-full" />
         <div class="absolute inset-0 bg-black opacity-40"></div>
 
         <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
