@@ -49,39 +49,11 @@ const About = () => {
   return (
     <div>
       
-      <div class="relative">
+      {/* <div class="relative">
         <img src="./assets/usman.jpg" alt="cover Image" class="inset-0 object-cover w-full" />
         <div class="absolute inset-0 bg-black opacity-40"></div>
 
-        <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
-          <p class="text-4xl md:text-6xl font-serif text-center md:text-center">Get the talent and results<br/> you need - <i>STAT</i></p>
-          <hr class="w-2/3 md:w-2/5 border-black border-t-2 my-4" />
-          <p class="text-xl md:text-2xl font-serif text-white">People are Talking about MorgansMed!</p>
-          <div class="w-full md:mx-20">
-            <Carousel
-              showArrows={false}
-              showStatus={false}
-              showThumbs={false}
-              autoPlay={true}
-              infiniteLoop={true}
-              interval={5000}
-            >
-              <div class="text-carousel-item font-serif text-xs md:text-base text-center md:text-center"><b>-Carmen T: </b>
-                Just wanted to send you a quick note to thank you for helping me<br />
-                find the job I was looking for all along with great benefits and great leadership.<br />
-                You created the perfect fit, and I appreciate that!
-              </div>
-              <div class="text-carousel-item text-xs md:text-base text-center md:text-center"> <b>-Tanthia P :</b> I have been with this company for years.<br />
-                I love the professionalism, personal attention, and open communication from my recruiters..
-              </div>
-              <div class="text-carousel-item text-xs md:text-base text-center md:text-center"> <b>-Mira M., a public health organization: </b><br /> We have had a very good relationship with<br />
-                Team1Medical for so many years now. We plan
-                to continue to use their services<br /> in sourcing candidates/temps for us..
-              </div>
-            </Carousel>
-          </div>
-        </div>
-      </div>
+      </div> */}
 
       <div className='bg-blue-200 w-full h-full '>
       <p className='font-serif text-4xl text-white p-10'>ABOUT</p>
@@ -157,23 +129,16 @@ const About = () => {
       <div className="sm:flex">
   <div className="sm:w-1/2"> {/* On small screens (sm), take half of the width */}
     <p className="text-2xl font-bold font-serif mt-5">Mission</p>
-    <ul>
-      <li className="list-disc font-serif my-1 mx-2 sm:mx-10">Trusted partnerships through honesty and mutual respect.</li>
-      <li className="list-disc font-serif my-1 mx-2 sm:mx-10">Exceeding expectations for care and compassion.</li>
-      <li className="list-disc font-serif my-1 mx-2 sm:mx-10">Adapting to and anticipating the ever-changing need of employees and the workplace.</li>
-      <li className="list-disc font-serif my-1 mx-2 sm:mx-10">Maintaining healthcare standards and compliance.</li>
-    </ul>
+    <p className="font-serif">
+    Our mission is to help improve the overall quality of healthcare nationwide by 
+    ensuring that healthcare facilities have skilled staff members and professionals 
+    are assigned to facilities where their roles fit their training and experience. 
+    In doing so, we aim to avoid role mismatches and promote an optimal patient experience as they receive treatment.
+    </p>
+
   </div>
 
-  <div className="sm:w-1/2"> {/* On small screens (sm), take half of the width */}
-    <p className="text-2xl font-bold font-serif mt-5">Core Values</p>
-    <ul>
-      <li className="list-disc font-serif my-1 mx-2 sm:mx-10">Operate business and life with honesty and integrity.</li>
-      <li className="list-disc font-serif my-1 mx-2 sm:mx-10">Treat everyone with dignity and respect.</li>
-      <li className="list-disc font-serif my-1 mx-2 sm:mx-10">Have a team-driven environment that is positive, fun, and professional.</li>
-      <li className="list-disc font-serif my-1 mx-2 sm:mx-10">Know that excellence is not an event…it’s a habit!</li>
-    </ul>
-  </div>
+ 
 </div>
 
 
@@ -182,16 +147,17 @@ const About = () => {
 
         <div>
           <p className="text-2xl font-bold font-serif mt-5">Vision</p>
-          <p className="font-serif">Team1Medical is committed to being a nationwide resource in enriching lives, nurturing patient/provider relationships, and empowering success in healthcare organizations.</p>
+          <p className="font-serif">Morgans Med Staffing  is committed to being a nationwide resource in 
+          enriching lives, nurturing patient/provider relationships, 
+          and empowering success in healthcare organizations via provision of excellent staffings.</p>
         </div>
 
         <div>
-          <p className="text-2xl font-bold font-serif mt-5">Why Team1Medical?</p>
+          <p className="text-2xl font-bold font-serif mt-5">Why Morgans Med Staffing?</p>
           <ul>
             <li className="list-disc font-serif my-1 mx-10">Our award-winning service is built through referrals and relationships.</li>
             <li className="list-disc font-serif my-1 mx-10">Our certified industry experts connect top talent with top companies.</li>
             <li className="list-disc font-serif my-1 mx-10">We are solution-focused with our client-partner approach.</li>
-            <li className="list-disc font-serif my-1 mx-10">Our determination and dedication have driven results for over 20 years!</li>
           </ul>
         </div>
         

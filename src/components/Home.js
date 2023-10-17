@@ -34,7 +34,7 @@ const Home = () => {
 
 
 
-      <Header>
+      <Header id="Home">
 
       <BackgroundImg
            src="./assets/nurse.jpg"
@@ -44,15 +44,12 @@ const Home = () => {
         <div className="overlay bg-blue-100 absolute bottom-0 left-0 w-full h-2/5 aspect-ratio-2-1 opacity-30 transition-opacity">
           <div className="flex items-center justify-center h-full overflow-hidden relative">
             <div className="text-center">
-              <Title style={{ x }} className="text-sm font-serif sm:text-2xl">Morgans Med Staffing provides custom staffing solutions<br/> to Houston’s healthcare organizations.</Title>
+              <Title style={{ x }} className="text-sm font-serif sm:text-2xl">Morgans Med Staffing provides custom staffing solutions<br/> to healthcare organizations.</Title>
             </div>
           </div>
         </div>
         
       </Header>
-
-
-
 
 
       <section id="Jobs" className="h-2/5 bg-white">
@@ -64,15 +61,15 @@ const Home = () => {
       </div>
 
 
-      <div id="#about" className="h-2/5 bg-white overflow-hidden relative my-10">
+      <div id="About" className="h-2/5 bg-white overflow-hidden relative my-10">
        <About/>
       </div>
 
-      <div id="#contact" className="h-2/5 bg-white overflow-hidden relative my-10">
+      <div id="Contact" className="h-2/5 bg-white overflow-hidden relative my-10">
        <Contact/>
       </div>
 
-      <div id="#footer" className="bg-white overflow-hidden relative">
+      <div id="Footer" className="bg-white overflow-hidden relative">
        <Footer/>
       </div>
 

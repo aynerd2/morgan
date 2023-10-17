@@ -147,28 +147,29 @@ const Jobs = () => {
           HIRING PROCESS
         </button>
 
-        <button onClick={() => handleOpen(<Faq />)} className="flex-grow rounded-xl text-center text-sm font-serif border hover:bg-blue-200 cursor-pointer p-2">
+          {/* To be added later */}
+        {/* <button onClick={() => handleOpen(<Faq />)} className="flex-grow rounded-xl text-center text-sm font-serif border hover:bg-blue-200 cursor-pointer p-2">
           FAQ
-        </button>
+        </button> */}
 
         <button onClick={() => handleOpen(<Benefits />)} className="flex-grow rounded-xl text-center text-sm font-serif border hover:bg-blue-200 cursor-pointer p-2">
           BENEFITS
         </button>
 
-        <button onClick={() => handleOpen(<Onboarding />)} className="flex-grow rounded-xl text-center text-sm font-serif border hover:bg-blue-200 cursor-pointer p-2">
+        {/* <button onClick={() => handleOpen(<Onboarding />)} className="flex-grow rounded-xl text-center text-sm font-serif border hover:bg-blue-200 cursor-pointer p-2">
           ONBOARDING AND ENROLLMENT
-        </button>
-
+        </button> */}
+{/* 
         <button onClick={() => handleOpen(<Refer />)} className="flex-grow rounded-xl text-center text-sm font-serif border hover:bg-blue-200 cursor-pointer p-2">
           REFER A FRIEND
-        </button>
+        </button> */}
 
       </div>
 
       <div className="flex flex-col-reverse md:flex-row my-10 mx-5">
         <div className="w-full md:w-1/2">
           <p className="font-serif text-4xl">Don’t just “find a job.” Build a healthcare career you <i>love</i>.</p>
-          <p className="font-serif">Team1Medical is one of the most trusted medical staffing agencies serving the healthcare employment needs of Houston, TX. Whether you’re an experienced professional or just launching your career, Team1Medical can be a partner in your success, providing:</p>
+          <p className="font-serif">Morgans Med Staffing is one of the most trusted medical staffing agencies serving the healthcare employment needs. Whether you’re an experienced professional or just launching your career, Morgans Med Staffing can be a partner in your success, providing:</p>
           <ul className="my-2 mx-10">
             <li className="list-disc font-serif my-1">
               <b>Respect, attention, and care.</b> We’ll learn who you are as a person and a professional – your strengths, interests, skills, goals, and personality – to find your perfect employment match. We won’t merely put you in a job; we’ll provide the resources and guidance to help you grow in your profession.
@@ -177,19 +178,19 @@ const Jobs = () => {
               <b>Flexibility, variety, and opportunity.</b> Control your schedule. Choose the opportunities that fit your needs and fulfill your professional aspirations. Direct positions and temporary/PRN/per diem assignments are available immediately.
             </li>
             <li className="list-disc font-serif my-1">
-              <b>Access to Houston’s best employers.</b> Over the last 20 years, Team1Medical has built strong partnerships with the most trusted and well-known healthcare organizations in Houston. We’ll connect you to the hidden job market, providing access to opportunities that never get advertised.
+              <b>Access to best employers.</b>Morgans Med Staffing has built strong partnerships with the most trusted and well-known healthcare organizations. We’ll connect you to the hidden job market, providing access to opportunities that never get advertised.
             </li>
           </ul>
         </div>
 
         <div className="w-full md:w-1/2">
-          <img src="./assets/br.jpg" alt="nurse" className="w-full rounded-full" />
+          <img src="./assets/n6.jpg" alt="nurse" className="w-full rounded-3xl" />
         </div>
       </div>
 
       <div className='flex-wrap '>
         <div className='mx-10'>
-          <p className='text-3xl font-serif my-4'>Healthcare Professionals Team1Medical Places:</p>
+          <p className='text-3xl font-serif my-4'>Healthcare Professionals Morgans Med Staffing Places:</p>
 
           <div>
             <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
@@ -231,7 +232,6 @@ const Jobs = () => {
               </AccordionDetails>
             </Accordion>
 
-
             <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
               <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
                 <Typography>Medical Financial Services Professionals:</Typography>
@@ -262,7 +262,6 @@ const Jobs = () => {
               </AccordionDetails>
             </Accordion>
 
-
             <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
               <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
                 <Typography>Administrative Support:</Typography>
@@ -288,7 +287,6 @@ const Jobs = () => {
               </AccordionDetails>
             </Accordion>
 
-
             <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
               <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
                 <Typography>Radiology/Imaging:</Typography>
@@ -309,7 +307,6 @@ const Jobs = () => {
                 </Typography>
               </AccordionDetails>
             </Accordion>
-
 
             <Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
               <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
@@ -336,7 +333,7 @@ const Jobs = () => {
 
           {/* PENDING */}
       {/* <div className='flex-wrap my-10'>
-        <p className='text-2xl font-serif mx-10'><a href='' className='hover:underline hover:text-blue-300'>Apply with Team1Medical online</a> or <a href='' className='hover:underline hover:text-blue-300'>contact us</a> for more information.</p>
+        <p className='text-2xl font-serif mx-10'><a href='' className='hover:underline hover:text-blue-300'>Apply with Morgans Med Staffing online</a> or <a href='' className='hover:underline hover:text-blue-300'>contact us</a> for more information.</p>
       </div> */}
 
 

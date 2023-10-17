@@ -9,6 +9,17 @@ const NewHeader = () => {
     setIsOpen(!isOpen);
   };
 
+
+  const smoothScrollTo = (targetId) =>{
+    const targetElement = document.getElementById(targetId);
+  
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: 'smooth',
+      });
+    }
+  }
+
   return (
 
   
@@ -16,7 +27,7 @@ const NewHeader = () => {
     <nav className='p-5 bg-white sticky top-0 z-10 shadow md:flex md:items-center md:justify-between'>
       <div className='flex justify-between items-center'>
         <span className='text-xl font-serif cursor-pointer'>
-          <img src='./assets/mmslogo.png' className='h-6 inline' />
+          <img src='./assets/mmslogo.png' className='h-6 inline cursor-pointer' />
         </span>
 
         <div className='cursor-pointer mx-2 md:hidden block'>
@@ -33,31 +44,44 @@ const NewHeader = () => {
           ${isOpen ? 'top-14 opacity-100' : ''}`}
       >
         <li className='mx-4 my-6 md:my-0'>
-          <a href='#Home' className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
+          <a 
+          onClick={() => smoothScrollTo('Home')}
+          className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
             Home
           </a>
         </li>
 
         <li className='mx-4 my-6 md:my-0'>
-          <a href='#Jobs ' className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
+          <a
+          onClick={() => smoothScrollTo('Jobs')}
+          className='text-sm duration-500 
+            font-serif cursor-pointer
+           hover:text-white
+           hover:bg-blue-200 p-1'>
             Job Seekers
           </a>
         </li>
 
         <li className='mx-4 my-6 md:my-0'>
-          <a href='#Employers' className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
+          <a 
+           onClick={() => smoothScrollTo('Employers')} 
+          className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
             Employers
           </a>
         </li>
 
         <li className='mx-4 my-6 md:my-0'>
-          <a href='#about' className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
+          <a 
+          onClick={() => smoothScrollTo('About')}
+          className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
             About
           </a>
         </li>
 
         <li className='mx-4 my-6 md:my-0'>
-          <a href='#contact' className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
+          <a 
+           onClick={() => smoothScrollTo('Contact')}
+          className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
             Contact Us
           </a>
         </li>
