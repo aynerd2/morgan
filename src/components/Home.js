@@ -32,8 +32,6 @@ const Home = () => {
   return (
     <>
 
-
-
       <Header id="Home">
 
       <BackgroundImg

@@ -3,17 +3,9 @@ import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import HireingProcess from './modals/HireingProcess';
 import Benefits from "./modals/Benefits"
-import Refer from './modals/Refer';
-import Onboarding from "./modals/Onboarding"
-import Faq from './modals/Faq';
 import Fab from '@mui/material/Fab';
 import CloseIcon from '@mui/icons-material/Close';
 import Backdrop from '@mui/material/Backdrop';
-// import Card from '@mui/material/Card';
-// import CardActions from '@mui/material/CardActions';
-// import CardContent from '@mui/material/CardContent';
-// import Button from '@mui/material/Button';
-
 import { styled } from '@mui/material/styles';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
 import MuiAccordion from '@mui/material/Accordion';
@@ -103,12 +95,7 @@ const Jobs = () => {
     setExpanded(newExpanded ? panel : false);
   }
 
-  // To generate current date
-  // const currentDate = new Date().toLocaleDateString(undefined, {
-  //   year: 'numeric',
-  //   month: 'long',
-  //   day: 'numeric',
-  // });
+
 
 
   return (
@@ -147,38 +134,27 @@ const Jobs = () => {
           HIRING PROCESS
         </button>
 
-          {/* To be added later */}
-        {/* <button onClick={() => handleOpen(<Faq />)} className="flex-grow rounded-xl text-center text-sm font-serif border hover:bg-blue-200 cursor-pointer p-2">
-          FAQ
-        </button> */}
-
         <button onClick={() => handleOpen(<Benefits />)} className="flex-grow rounded-xl text-center text-sm font-serif border hover:bg-blue-200 cursor-pointer p-2">
           BENEFITS
         </button>
 
-        {/* <button onClick={() => handleOpen(<Onboarding />)} className="flex-grow rounded-xl text-center text-sm font-serif border hover:bg-blue-200 cursor-pointer p-2">
-          ONBOARDING AND ENROLLMENT
-        </button> */}
-{/* 
-        <button onClick={() => handleOpen(<Refer />)} className="flex-grow rounded-xl text-center text-sm font-serif border hover:bg-blue-200 cursor-pointer p-2">
-          REFER A FRIEND
-        </button> */}
+  
 
       </div>
 
       <div className="flex flex-col-reverse md:flex-row my-10 mx-5">
         <div className="w-full md:w-1/2">
-          <p className="font-serif text-4xl">Don’t just “find a job.” Build a healthcare career you <i>love</i>.</p>
-          <p className="font-serif">Morgans Med Staffing is one of the most trusted medical staffing agencies serving the healthcare employment needs. Whether you’re an experienced professional or just launching your career, Morgans Med Staffing can be a partner in your success, providing:</p>
+          <p className="font-serif text-4xl mb-4">Don’t just “find a job.” Build a healthcare career you <i>love</i>.</p>
+          <p className="font-serif mb-4">Morgans Med Staffing is one of the most trusted medical staffing agencies serving the healthcare employment needs. Whether you’re an experienced professional or just launching your career, Morgans Med Staffing can be a partner in your success, providing:</p>
           <ul className="my-2 mx-10">
             <li className="list-disc font-serif my-1">
-              <b>Respect, attention, and care.</b> We’ll learn who you are as a person and a professional – your strengths, interests, skills, goals, and personality – to find your perfect employment match. We won’t merely put you in a job; we’ll provide the resources and guidance to help you grow in your profession.
+              <b>Respect, attention, and care: </b> We’ll learn who you are as a person and a professional – your strengths, interests, skills, goals, and personality – to find your perfect employment match. We won’t merely put you in a job; we’ll provide the resources and guidance to help you grow in your profession.
             </li>
             <li className="list-disc font-serif my-1">
-              <b>Flexibility, variety, and opportunity.</b> Control your schedule. Choose the opportunities that fit your needs and fulfill your professional aspirations. Direct positions and temporary/PRN/per diem assignments are available immediately.
+              <b>Flexibility, variety, and opportunity: </b> Control your schedule. Choose the opportunities that fit your needs and fulfill your professional aspirations. Direct positions and temporary/PRN/per diem assignments are available immediately.
             </li>
             <li className="list-disc font-serif my-1">
-              <b>Access to best employers.</b>Morgans Med Staffing has built strong partnerships with the most trusted and well-known healthcare organizations. We’ll connect you to the hidden job market, providing access to opportunities that never get advertised.
+              <b>Access to best employers: </b>Morgans Med Staffing has built strong partnerships with the most trusted and well-known healthcare organizations. We’ll connect you to the hidden job market, providing access to opportunities that never get advertised.
             </li>
           </ul>
         </div>
@@ -329,13 +305,6 @@ const Jobs = () => {
           </div>
         </div>
       </div>
-
-
-          {/* PENDING */}
-      {/* <div className='flex-wrap my-10'>
-        <p className='text-2xl font-serif mx-10'><a href='' className='hover:underline hover:text-blue-300'>Apply with Morgans Med Staffing online</a> or <a href='' className='hover:underline hover:text-blue-300'>contact us</a> for more information.</p>
-      </div> */}
-
 
     </div>
   )
