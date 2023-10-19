@@ -2,4 +2,20 @@
   text-align: center;
 }
 
+.map-responsive {
+
+  overflow: hidden;
+  padding: 30%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  right: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 

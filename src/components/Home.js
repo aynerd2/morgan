@@ -59,11 +59,11 @@ const Home = () => {
       </div>
 
 
-      <div id="About" className="h-2/5 bg-white overflow-hidden relative my-10">
+      <div id="About" className="h-2/5 bg-white overflow-hidden relative my-2">
        <About/>
       </div>
 
-      <div id="Contact" className="h-2/5 bg-white overflow-hidden relative my-10">
+      <div id="Contact" className="h-2/5 bg-white overflow-hidden relative">
        <Contact/>
       </div>
 

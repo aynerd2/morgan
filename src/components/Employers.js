@@ -120,15 +120,21 @@ const Employers = () => {
 
     <div>
 
+
       <div class="relative">
-        <img src="./assets/n1.jpg" alt="cover" class="inset-0 object-cover w-full" />
+        <img src="./assets/n1.jpg" alt="cover" class="inset-0 object-cover w-full h-60 md:h-80" />
         <div class="absolute inset-0 bg-black opacity-40"></div>
 
         <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
           <p class="text-4xl md:text-6xl font-serif text-center md:text-left">Build your career with</p>
           <p class="text-3xl md:text-5xl font-serif font-semibold text-white text-center md:text-left">Morgans Med Staffing</p>
           <hr class="w-2/3 md:w-2/5 border-black border-t-2 my-4" />
-          
+
+          <p class="text-lg md:text-xl font-serif text-center md:text-left mb-4">
+            Your trusted partner in healthcare career opportunities.
+          </p>
+
+       
         </div>
       </div>
 
@@ -291,7 +297,7 @@ const Employers = () => {
 
             <div className="mt-10">
               <p className='text-3xl font-serif my-4'>Bring Morgans Med Staffing professionals onto your team today!</p>
-              <p className="font-serif">Call 713.590.2980 or email us today!</p>
+              <p className="font-serif">Email us  info@morgansmedstaffing.com</p>
             </div>
           </div>
 

@@ -142,27 +142,29 @@ const Jobs = () => {
 
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row my-10 mx-5">
-        <div className="w-full md:w-1/2">
-          <p className="font-serif text-4xl mb-4">Don’t just “find a job.” Build a healthcare career you <i>love</i>.</p>
-          <p className="font-serif mb-4">Morgans Med Staffing is one of the most trusted medical staffing agencies serving the healthcare employment needs. Whether you’re an experienced professional or just launching your career, Morgans Med Staffing can be a partner in your success, providing:</p>
-          <ul className="my-2 mx-10">
-            <li className="list-disc font-serif my-1">
-              <b>Respect, attention, and care: </b> We’ll learn who you are as a person and a professional – your strengths, interests, skills, goals, and personality – to find your perfect employment match. We won’t merely put you in a job; we’ll provide the resources and guidance to help you grow in your profession.
-            </li>
-            <li className="list-disc font-serif my-1">
-              <b>Flexibility, variety, and opportunity: </b> Control your schedule. Choose the opportunities that fit your needs and fulfill your professional aspirations. Direct positions and temporary/PRN/per diem assignments are available immediately.
-            </li>
-            <li className="list-disc font-serif my-1">
-              <b>Access to best employers: </b>Morgans Med Staffing has built strong partnerships with the most trusted and well-known healthcare organizations. We’ll connect you to the hidden job market, providing access to opportunities that never get advertised.
-            </li>
-          </ul>
-        </div>
+<div className="grid grid-cols-1 md:grid-cols-2 my-10 mx-5 gap-10">
+  <div className="w-full">
+    <p className="font-serif text-4xl mb-4">Don’t just “find a job.” Build a healthcare career you <i>love</i>.</p>
+    <p className="font-serif mb-4">Morgans Med Staffing is one of the most trusted medical staffing agencies serving the healthcare employment needs. Whether you’re an experienced professional or just launching your career, Morgans Med Staffing can be a partner in your success, providing:</p>
+    <ul className="my-2">
+      <li className="list-disc font-serif my-1">
+        <b>Respect, attention, and care: </b> We’ll learn who you are as a person and a professional – your strengths, interests, skills, goals, and personality – to find your perfect employment match. We won’t merely put you in a job; we’ll provide the resources and guidance to help you grow in your profession.
+      </li>
+      <li className="list-disc font-serif my-1">
+        <b>Flexibility, variety, and opportunity: </b> Control your schedule. Choose the opportunities that fit your needs and fulfill your professional aspirations. Direct positions and temporary/PRN/per diem assignments are available immediately.
+      </li>
+      <li className="list-disc font-serif my-1">
+        <b>Access to best employers: </b>Morgans Med Staffing has built strong partnerships with the most trusted and well-known healthcare organizations. We’ll connect you to the hidden job market, providing access to opportunities that never get advertised.
+      </li>
+    </ul>
+  </div>
 
-        <div className="w-full md:w-1/2">
-          <img src="./assets/n6.jpg" alt="nurse" className="w-full rounded-3xl" />
-        </div>
-      </div>
+  <div className="w-full">
+    <img src="./assets/n4.jpg" alt="nurse" className="w-full h-full object-contain rounded-3xl" />
+  </div>
+</div>
+
+
 
       <div className='flex-wrap '>
         <div className='mx-10'>
