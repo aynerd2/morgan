@@ -5,12 +5,11 @@ const Benefits = () => {
     <div className='h-full flex flex-col'>
 
       <div className='w-full border border-blue-200 p-5 md:p-10 mb-5'>
-        <p className='mx-5 md:mx-10 font-thin text-4xl md:text-8xl'>Benefits</p>
+        <p className='mx-5 md:mx-10 font-thin text-4xl md:text-6xl'>Benefits</p>
       </div>
 
       <div className='mx-5 md:mx-10 flex-1 overflow-y-scroll'>
-        <p className='mb-2 text-xl md:text-4xl'>Great Work Starts With Great Benefits</p>
-        <p className='mb-2 text-lg md:text-3xl'>Your talent is our most important asset.</p>
+        <p className='mb-2 text-xl md:text-3xl'>Great Work Starts With Great Benefits, Your talent is our most important asset.</p>
         <p className='font-serif mb-4'>That’s why Morgans Med Staffing offers a comprehensive benefits package. We want to give you and your family peace of mind, so you’re free to do your best work.</p>
         <p className='font-serif mb-2'>All Morgans Med Staffing PRN and temporary employees may be eligible to receive:</p>
         <ul className='font-serif mx-5 md:mx-10 mb-4'>

@@ -1,16 +1,4 @@
 import React, {useState, useEffect} from "react";
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import Box from '@mui/material/Box';
-import Modal from '@mui/material/Modal';
-import Sp from "../components/modals/Sp"
-import Sa from "../components/modals/Sa"
-import So from "../components/modals/So"
-import Fab from '@mui/material/Fab';
-import CloseIcon from '@mui/icons-material/Close';
-import Backdrop from '@mui/material/Backdrop';
-
-
 import { styled } from '@mui/material/styles';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
 import MuiAccordion from '@mui/material/Accordion';
@@ -20,23 +8,6 @@ import Typography from '@mui/material/Typography';
 
 
 
-
-const style = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: '100vw',
-  height: '100vh',
-  bgcolor: 'background.paper',
-  border: '0px solid #000',
-  boxShadow: 44,
-  p: 4,
-  transition: 'all 0.5s ease-in',
-  borderRadius: '5px',
-  opacity: '0.8',
-
-};
 
 
 // Styling for Accordion
@@ -122,15 +93,15 @@ const Employers = () => {
 
 
       <div class="relative">
-        <img src="./assets/n1.jpg" alt="cover" class="inset-0 object-cover w-full h-60 md:h-80" />
-        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <img src="./assets/n1.jpg" alt="cover" className="inset-0 object-cover w-full h-60 md:h-80" />
+        <div className="absolute inset-0 bg-black opacity-40"></div>
 
-        <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
-          <p class="text-4xl md:text-6xl font-serif text-center md:text-left">Build your career with</p>
-          <p class="text-3xl md:text-5xl font-serif font-semibold text-white text-center md:text-left">Morgans Med Staffing</p>
-          <hr class="w-2/3 md:w-2/5 border-black border-t-2 my-4" />
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
+          <p className="text-4xl md:text-6xl font-serif text-center md:text-left">Build your career with</p>
+          <p className="text-3xl md:text-5xl font-serif font-semibold text-white text-center md:text-left">Morgans Med Staffing</p>
+          <hr className="w-2/3 md:w-2/5 border-black border-t-2 my-4" />
 
-          <p class="text-lg md:text-xl font-serif text-center md:text-left mb-4">
+          <p className="text-lg md:text-xl font-serif text-center md:text-left mb-4">
             Your trusted partner in healthcare career opportunities.
           </p>
 
@@ -142,7 +113,7 @@ const Employers = () => {
       <p className='font-serif text-4xl text-white p-10'>EMPLOYERS</p>
       </div>
     
-      <div className="mx-10 mt-10">
+      <div className="mx-5 mt-10">
         <p className="text-4xl my-4 font-serif">A Passion for Healthcare Staffing. Measurable Results.</p>
         <p className="font-serif">Morgans Med Staffing, leading healthcare recruiters nationwide,
           has a knack for spotting – and placing – top medical talent.
@@ -151,7 +122,7 @@ const Employers = () => {
 
         <div className="flex-wrap mt-10">
 
-          <div className="px-4 sm:px-6 md:px-8">
+          <div className="px-4 sm:px-6 md:px-6">
 
             <p className="text-3xl font-serif my-4">Healthcare Professionals Morgans Med Staffing Places:</p>
             <p className="font-serif">Serving doctor’s offices, clinics, hospitals, patient health centers, and diagnostic imaging centers nationwide:</p>

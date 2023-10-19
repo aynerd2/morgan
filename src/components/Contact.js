@@ -10,6 +10,10 @@ const Contact = () => {
             name: "",
             email: "",
             message: "",
+            position: "",
+            phone: "",
+
+
       });
 
       const [loading, setLoading] = useState(false);
@@ -62,8 +66,8 @@ const Contact = () => {
                                           <span className='text-black font-medium mb-1'>Position hiring for</span>
                                           <input
                                                 type='text'
-                                                name='name'
-                                                value={form.name}
+                                                name='position'
+                                                value={form.position}
                                                 onChange={handleChange}
                                                 placeholder="Enter position"
                                                 className='bg-gray-200 py-2 px-4 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium'
@@ -73,9 +77,9 @@ const Contact = () => {
                                     <label className='flex flex-col'>
                                           <span className='text-black font-medium mb-1'>Name</span>
                                           <input
-                                                type='name'
+                                                type='text'
                                                 name='name'
-                                                value={form.email}
+                                                value={form.name}
                                                 onChange={handleChange}
                                                 placeholder="Enter your name"
                                                 className='bg-gray-200 py-2 px-4 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium'
@@ -86,8 +90,9 @@ const Contact = () => {
                                     <label className='flex flex-col'>
                                           <span className='text-black font-medium mb-1'>Phone</span>
                                           <input
-                                                type='phone'
-                                                value={form.email}
+                                                type='number'
+                                                name='phone'
+                                                value={form.phone}
                                                 onChange={handleChange}
                                                 placeholder="+(199) ..."
                                                 className='bg-gray-200 py-2 px-4 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium'
@@ -130,10 +135,19 @@ const Contact = () => {
                         </motion.div>
 
                         <motion.div variants={slideIn("right", "tween", 0.2, 1)} className="flex-[0.25]">
-                        <p className="font-serif text-4xl">
-                        Corporate Office Address:
-                        </p>
-                        <p className="font-serif mb-10">Morgans Med Staffing, 600 Park Offices Dr, Suite 300-45, Durham, NC 27709.</p>
+              
+
+
+                        <div className="p-4 md:w-1/2 lg:w-1/3 xl:w-full">
+                                    <p className="font-serif text-2xl md:text-3xl lg:text-4xl">
+                                          Corporate Office Address:
+                                    </p>
+                                    <p className="font-serif text-sm md:text-base lg:text-lg">
+                                          Morgans Med Staffing, 600 Park Offices Dr, Suite 300-45, Durham, NC 27709.
+                                    </p>
+                              </div>
+
+
                               <div className="map-responsive">
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.014017041794!2d-78.87317809018916!3d35.897672372403534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89acef97c2f2c44b%3A0xebafdb6ec8ae01e9!2s600%20Park%20Offices%20Dr%2C%20Durham%2C%20NC%2027709%2C%20USA!5e0!3m2!1sen!2sng!4v1697705404382!5m2!1sen!2sng" 
                                      title="Navigation"

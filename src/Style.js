@@ -12,11 +12,27 @@ export const Header = styled.div`
 `;
 
 export const BackgroundImg = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  opacity: 0.8;
+width: 100%;
+height: 100%;
+object-fit: cover;
+position: absolute;
+opacity: 0.8;
+
+@media (max-width: 768px) {
+  height: 60%;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  height: 70%;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  height: 75%;
+}
+
+@media (min-width: 1281px) {
+  height: 80%;
+}
 `;
 
 export const Title = styled(motion.h1)`

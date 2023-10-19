@@ -27,7 +27,11 @@ const NewHeader = () => {
     <nav className='p-5 bg-white sticky top-0 z-10 shadow md:flex md:items-center md:justify-between'>
       <div className='flex justify-between items-center'>
         <span className='text-xl font-serif cursor-pointer'>
-          <img src='./assets/mmslogo.png' className='h-6 inline cursor-pointer' />
+          <img
+            src='./assets/mmslogo.png'
+            className='h-10 md:h-12 lg:h-16 inline cursor-pointer'
+            alt='MMS Logo'
+          />
         </span>
 
         <div className='cursor-pointer mx-2 md:hidden block'>

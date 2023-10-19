@@ -32,23 +32,35 @@ const Home = () => {
   return (
     <>
 
-      <Header id="Home">
+<div id="Home" className="relative">
+  <img
+    src="./assets/nurse.jpg"
+    alt="Hero Image"
+    className="w-full"
+  />
+  <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center">
+    <Title style={{ x }} className="text-white font-serif text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
+    Morgans Med Staffing provides custom staffing solutions<br /> to healthcare organizations.
+    </Title>
+  </div>
+</div>
 
-      <BackgroundImg
-           src="./assets/nurse.jpg"
-           alt="Hero Image"
-      />
 
-        <div className="overlay bg-blue-100 absolute bottom-0 left-0 w-full h-2/5 aspect-ratio-2-1 opacity-30 transition-opacity">
+      {/* <div id="Home">
+        <img
+          src="./assets/nurse.jpg"
+          alt="Hero Image"
+        /> */}
+{/* 
+        <div className="overlay bg-blue-100 absolute bottom-0 left-0 w-full h-3/5 aspect-ratio-2-1 opacity-30 transition-opacity">
           <div className="flex items-center justify-center h-full overflow-hidden relative">
             <div className="text-center">
-              <Title style={{ x }} className="text-sm font-serif sm:text-2xl">Morgans Med Staffing provides custom staffing solutions<br/> to healthcare organizations.</Title>
+              <Title style={{ x }} className="text-sm font-serif sm:text-2xl">Morgans Med Staffing provides custom staffing solutions<br /> to healthcare organizations.</Title>
             </div>
           </div>
-        </div>
-        
-      </Header>
+        </div> */}
 
+      {/* </div> */}
 
       <section id="Jobs" className="h-2/5 bg-white">
       <Jobs/>

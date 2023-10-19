@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div>
       <div class="relative">
-        <img src="./assets/p2.jpg" alt="cover" class="inset-0 object-cover w-full h-60 md:h-80" />
+        <img src="./assets/p6.jpg" alt="cover" class="inset-0 object-cover w-full h-60 md:h-80" />
         <div class="absolute inset-0 bg-black opacity-40"></div>
 
         <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
@@ -74,7 +74,7 @@ const About = () => {
         </div>
 
         <div className="md:col-span-1">
-          <img src="./assets/p3.jpg" alt="nurse" className="w-full h-4/5 object-contain " />
+          <img src="./assets/p5.jpg" alt="nurse" className="w-full h-4/5 object-contain " />
         </div>
       </div>
     </div>
