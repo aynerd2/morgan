@@ -36,7 +36,7 @@ opacity: 0.8;
 `;
 
 export const Title = styled(motion.h1)`
-  font-family: serif;
+  font-family: Georgia;
   color: black;
   font-size: 2.5em;
   line-height: 1.2; 

@@ -24,7 +24,7 @@ const Footer = () => {
                         </div>
 
                         <div className='text-center mt-4'>
-                              <p className='font-serif'>© 2023 Morgans Med Staffing | Site Credits</p>
+                              <p className='font-Georgia'>© 2023 Morgans Med Staffing | Site Credits</p>
                         </div>
                   </div>
 

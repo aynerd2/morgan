@@ -40,17 +40,17 @@ const Contact = () => {
             <div>
 
                   <div className='bg-blue-200 w-full h-full mb-10'>
-                        <p className='font-serif text-4xl text-white p-10'>CONTACT US</p>
+                        <p className='font-Georgia text-4xl text-white p-10'>CONTACT US</p>
                   </div>
 
-                  <div className={`xl:mt-4 grid grid-cols-1 xl:grid-cols-2 gap-8 overflow-hidden`}>
+                  {/* <div className='xl:mt-4 grid grid-cols-1 xl:grid-cols-2 gap-8 overflow-hidden'>
 
                         <motion.div
                             variants={slideIn("left", "tween", 0.2, 1)}
                             className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
                         
                         >
-                              <p className="font-serif ">
+                              <p className="font-Georgia ">
                               Please tell us about your hiring needs 
                               below and one of our staffing professionals 
                               will contact you shortly.
@@ -127,7 +127,7 @@ const Contact = () => {
 
                                     <button
                                           type='submit'
-                                          className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-black font-bold font-serif shadow-md shadow-primary'
+                                          className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-black font-bold font-Georgia shadow-md shadow-primary'
                                     >
                                           {loading ? "Sending..." : "Send"}
                                     </button>
@@ -135,14 +135,11 @@ const Contact = () => {
                         </motion.div>
 
                         <motion.div variants={slideIn("right", "tween", 0.2, 1)} className="flex-[0.25]">
-              
-
-
-                        <div className="p-4 md:w-1/2 lg:w-1/3 xl:w-full">
-                                    <p className="font-serif text-2xl md:text-3xl lg:text-4xl">
+                              <div className="p-4 md:w-1/2 lg:w-1/3 xl:w-full">
+                                    <p className="font-Georgia text-2xl md:text-3xl lg:text-4xl">
                                           Corporate Office Address:
                                     </p>
-                                    <p className="font-serif text-sm md:text-base lg:text-lg">
+                                    <p className="font-Georgia text-sm md:text-base lg:text-lg">
                                           Morgans Med Staffing, 600 Park Offices Dr, Suite 300-45, Durham, NC 27709.
                                     </p>
                               </div>
@@ -163,7 +160,42 @@ const Contact = () => {
 
                         </motion.div>
 
+                  </div> */}
+
+
+
+                  <div className="flex flex-wrap justify-between items-center">
+
+                        <div className="flex flex-col">
+
+                              <div className="mt-10 mx-5 text-left">
+                                    <p className="font-Georgia text-2xl md:text-3xl lg:text-4xl">
+                                          Corporate Office Address:
+                                    </p>
+                                    <p className="font-Georgia text-sm md:text-base lg:text-lg">
+                                          Morgans Med Staffing, 600 Park Offices Dr, Suite 300-45, Durham, NC 27709.
+                                    </p>
+                              </div>
+
+
+
+                              <div className="map-responsive">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.014017041794!2d-78.87317809018916!3d35.897672372403534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89acef97c2f2c44b%3A0xebafdb6ec8ae01e9!2s600%20Park%20Offices%20Dr%2C%20Durham%2C%20NC%2027709%2C%20USA!5e0!3m2!1sen!2sng!4v1697705404382!5m2!1sen!2sng"
+                                          title="Navigation"
+                                          width="1500"
+                                          height="450"
+                                          loading="lazy"
+                                          referrerPolicy="no-referrer-when-downgrade">
+
+                                    </iframe>
+
+                              </div>
+                        </div>
+
                   </div>
+
+
+
 
             </div>
       )

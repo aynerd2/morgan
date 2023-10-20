@@ -49,7 +49,7 @@ const PieChartComponent = () => {
           backgroundColor: "white",
           color: "black",
         }}
-        className="text-center text-white font-serif text-4xl font-bold"
+        className="text-center text-white font-Georgia text-4xl font-bold"
       >
         {/* {Math.round((data[0].value / (data[0].value + data[1].value)) * 100)}% */}
         {count}%
