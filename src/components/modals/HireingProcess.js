@@ -4,7 +4,7 @@ import React from 'react'
 
 const HireingProcess = () => {
   return (
-    <div className='h-full flex flex-col'>
+    <div className='h-full flex flex-col mb-10'>
 
       <div className='w-full border border-blue-200 p-5 mb-5'>
         <p className='mx-5 font-thin text-4xl'>Hiring Process</p>
@@ -12,10 +12,10 @@ const HireingProcess = () => {
 
       <div className='flex-1 overflow-y-scroll'>
         <div className='my-5 mx-5'>
-          <p className='font-Georgia text-2xl mb-4'>
+          <p className='font-serif text-2xl mb-4'>
             Welcome to Morgans Med Staffing - Your Partner in Healthcare Careers
           </p>
-          <p className='font-Georgia'>
+          <p className='font-serif'>
             At Morgans Med Staffing, we're dedicated to helping you build a healthcare career you love. Whether you're an experienced healthcare professional or just starting your career, we're here to provide you with the best opportunities and support you in your journey.
           </p>
         </div>
@@ -23,52 +23,52 @@ const HireingProcess = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10'>
           <div className='flex items-center'>
             <div className="bg-clip-content p-4 border-4 border-blue-200 border-double">
-              <p className='text-2xl font-Georgia'>1</p>
+              <p className='text-2xl font-serif'>1</p>
             </div>
-            <p className='font-Georgia ml-2'>Complete our online application.</p>
+            <p className='font-serif ml-2'>Complete our online application.</p>
           </div>
 
           <div className='flex items-center'>
             <div className="bg-clip-content p-4 border-4 border-blue-200 border-double">
-              <p className='text-2xl font-Georgia'>2</p>
+              <p className='text-2xl font-serif'>2</p>
             </div>
-            <p className='font-Georgia ml-2'>
+            <p className='font-serif ml-2'>
               Our goal is to contact all qualified applicants within 5 business days. If you have not heard from us, please give us a call or email info@morgansmedstaffing.com.
             </p>
           </div>
 
           <div className='flex items-center'>
             <div className="bg-clip-content p-4 border-4 border-blue-200 border-double">
-              <p className='text-2xl font-Georgia'>3</p>
+              <p className='text-2xl font-serif'>3</p>
             </div>
-            <p className='font-Georgia ml-2'>
+            <p className='font-serif ml-2'>
               Through our interview and 360⁰ assessment process, we identify your interests, experience, skills, personality, and work style.
             </p>
           </div>
 
           <div className='flex items-center'>
             <div className="bg-clip-content p-4 border-4 border-blue-200 border-double">
-              <p className='text-2xl font-Georgia'>4</p>
+              <p className='text-2xl font-serif'>4</p>
             </div>
-            <p className='font-Georgia ml-2'>
+            <p className='font-serif ml-2'>
               Once we get to know you well, we look for opportunities in which you will thrive.
             </p>
           </div>
 
           <div className='flex items-center'>
             <div className="bg-clip-content p-4 border-4 border-blue-200 border-double">
-              <p className='text-2xl font-Georgia'>5</p>
+              <p className='text-2xl font-serif'>5</p>
             </div>
-            <p className='font-Georgia ml-2'>
+            <p className='font-serif ml-2'>
               We verify your certifications, references, and background, and conduct drug screenings.
             </p>
           </div>
 
           <div className='flex items-center'>
             <div className="bg-clip-content p-4 border-4 border-blue-200 border-double">
-              <p className='text-2xl font-Georgia'>6</p>
+              <p className='text-2xl font-serif'>6</p>
             </div>
-            <p className='font-Georgia ml-2'>
+            <p className='font-serif ml-2'>
               Morgans Med Staffing presents the right opportunities for you.
             </p>
           </div>

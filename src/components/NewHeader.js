@@ -40,7 +40,7 @@ const NewHeader = () => {
             
     <nav className='p-5 bg-white sticky top-0 z-10 shadow md:flex md:items-center md:justify-between'>
       <div className='flex justify-between items-center'>
-        <span className='text-xl font-Georgia cursor-pointer'>
+        <span className='text-xl font-serif cursor-pointer'>
           <img
             src='./assets/mmslogo.png'
             className='h-8 md:h-10 lg:h-14 inline cursor-pointer'
@@ -65,7 +65,7 @@ const NewHeader = () => {
         <li className='mx-4 my-6 md:my-0'>
           <a 
           onClick={home}
-          className='text-sm duration-500 font-Georgia cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
+          className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
             Home
           </a>
         </li>
@@ -74,7 +74,7 @@ const NewHeader = () => {
           <a
           onClick={() => smoothScrollTo('Jobs')}
           className='text-sm duration-500 
-            font-Georgia cursor-pointer
+            font-serif cursor-pointer
            hover:text-white
            hover:bg-blue-200 p-1'>
             Job Seekers
@@ -84,7 +84,7 @@ const NewHeader = () => {
         <li className='mx-4 my-6 md:my-0'>
           <a 
            onClick={() => smoothScrollTo('Employers')} 
-          className='text-sm duration-500 font-Georgia cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
+          className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
             Employers
           </a>
         </li>
@@ -92,7 +92,7 @@ const NewHeader = () => {
         <li className='mx-4 my-6 md:my-0'>
           <a 
           onClick={() => smoothScrollTo('About')}
-          className='text-sm duration-500 font-Georgia cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
+          className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
             About
           </a>
         </li>
@@ -100,14 +100,14 @@ const NewHeader = () => {
         <li className='mx-4 my-6 md:my-0'>
           <a 
            onClick={() => smoothScrollTo('Contact')}
-          className='text-sm duration-500 font-Georgia cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
+          className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
             Contact Us
           </a>
         </li>
 
         <button 
         className='bg-blue-200
-         text-white font-Georgia 
+         text-white font-serif 
          rounded-sm hover:bg-blue-300 
          duration-500 py-2 px-6 mx-4'
          onClick={handleApplyClick}>

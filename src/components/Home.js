@@ -39,8 +39,8 @@ const Home = () => {
           <div className="absolute inset-0 bg-black opacity-40"></div>
 
           <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
-            <p className="text-3xl md:text-5xl font-Georgia font-semibold text-white text-center md:text-left">Morgans Med Staffing</p>
-            <p className="text-lg md:text-xl font-Georgia text-center md:text-center mb-4">
+            <p className="text-3xl md:text-5xl font-serif font-semibold text-white text-center md:text-left">Morgans Med Staffing</p>
+            <p className="text-lg md:text-xl font-serif text-center md:text-center mb-4">
               We provide custom staffing solutions to healthcare organizations.
             </p>
 

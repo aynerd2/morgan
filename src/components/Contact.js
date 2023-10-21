@@ -40,7 +40,7 @@ const Contact = () => {
             <div>
 
                   <div className='bg-blue-200 w-full h-full mb-10'>
-                        <p className='font-Georgia text-4xl text-white p-10'>CONTACT US</p>
+                        <p className='font-serif text-4xl text-white p-10'>CONTACT US</p>
                   </div>
 
                   {/* <div className='xl:mt-4 grid grid-cols-1 xl:grid-cols-2 gap-8 overflow-hidden'>
@@ -50,7 +50,7 @@ const Contact = () => {
                             className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
                         
                         >
-                              <p className="font-Georgia ">
+                              <p className="font-serif ">
                               Please tell us about your hiring needs 
                               below and one of our staffing professionals 
                               will contact you shortly.
@@ -127,7 +127,7 @@ const Contact = () => {
 
                                     <button
                                           type='submit'
-                                          className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-black font-bold font-Georgia shadow-md shadow-primary'
+                                          className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-black font-bold font-serif shadow-md shadow-primary'
                                     >
                                           {loading ? "Sending..." : "Send"}
                                     </button>
@@ -136,10 +136,10 @@ const Contact = () => {
 
                         <motion.div variants={slideIn("right", "tween", 0.2, 1)} className="flex-[0.25]">
                               <div className="p-4 md:w-1/2 lg:w-1/3 xl:w-full">
-                                    <p className="font-Georgia text-2xl md:text-3xl lg:text-4xl">
+                                    <p className="font-serif text-2xl md:text-3xl lg:text-4xl">
                                           Corporate Office Address:
                                     </p>
-                                    <p className="font-Georgia text-sm md:text-base lg:text-lg">
+                                    <p className="font-serif text-sm md:text-base lg:text-lg">
                                           Morgans Med Staffing, 600 Park Offices Dr, Suite 300-45, Durham, NC 27709.
                                     </p>
                               </div>
@@ -169,10 +169,10 @@ const Contact = () => {
                         <div className="flex flex-col">
 
                               <div className="mt-10 mx-5 text-left">
-                                    <p className="font-Georgia text-2xl md:text-3xl lg:text-4xl">
+                                    <p className="font-serif text-2xl md:text-3xl lg:text-4xl">
                                           Corporate Office Address:
                                     </p>
-                                    <p className="font-Georgia text-sm md:text-base lg:text-lg">
+                                    <p className="font-serif text-sm md:text-base lg:text-lg">
                                           Morgans Med Staffing, 600 Park Offices Dr, Suite 300-45, Durham, NC 27709.
                                     </p>
                               </div>

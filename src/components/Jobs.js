@@ -114,17 +114,17 @@ const Jobs = () => {
       <div className='flex-wrap '> 
 
       <div className='bg-blue-200 p-5 '>
-      <p className='font-Georgia text-4xl text-white'>JOB SEAKERS</p>
+      <p className='font-serif text-4xl text-white'>JOB SEAKERS</p>
       </div>
 
       <div className="flex flex-wrap justify-center items-center max-w-full mx-auto">
       
 
-        <button onClick={hp} className="flex-grow rounded-xl text-center text-sm font-Georgia border hover:bg-blue-200 cursor-pointer p-2">
+        <button onClick={hp} className="flex-grow rounded-xl text-center text-sm font-serif border hover:bg-blue-200 cursor-pointer p-2">
           HIRING PROCESS
         </button>
 
-        <button onClick={benefits} className="flex-grow rounded-xl text-center text-sm font-Georgia border hover:bg-blue-200 cursor-pointer p-2">
+        <button onClick={benefits} className="flex-grow rounded-xl text-center text-sm font-serif border hover:bg-blue-200 cursor-pointer p-2">
           BENEFITS
         </button>
 
@@ -134,16 +134,16 @@ const Jobs = () => {
 
 <div className="grid grid-cols-1 md:grid-cols-2 my-10 mx-5 gap-10">
   <div className="w-full">
-    <p className="font-Georgia text-4xl mb-4">Don’t just “find a job.” Build a healthcare career you <i>love</i>.</p>
-    <p className="font-Georgia mb-4">Morgans Med Staffing is one of the most trusted medical staffing agencies serving the healthcare employment needs. Whether you’re an experienced professional or just launching your career, Morgans Med Staffing can be a partner in your success, providing:</p>
+    <p className="font-serif text-4xl mb-4">Don’t just “find a job.” Build a healthcare career you <i>love</i>.</p>
+    <p className="font-serif mb-4">Morgans Med Staffing is one of the most trusted medical staffing agencies serving the healthcare employment needs. Whether you’re an experienced professional or just launching your career, Morgans Med Staffing can be a partner in your success, providing:</p>
     <ul className="my-2">
-      <li className="list-disc font-Georgia my-1">
+      <li className="list-disc font-serif my-1">
         <b>Respect, attention, and care: </b> We’ll learn who you are as a person and a professional – your strengths, interests, skills, goals, and personality – to find your perfect employment match. We won’t merely put you in a job; we’ll provide the resources and guidance to help you grow in your profession.
       </li>
-      <li className="list-disc font-Georgia my-1">
+      <li className="list-disc font-serif my-1">
         <b>Flexibility, variety, and opportunity: </b> Control your schedule. Choose the opportunities that fit your needs and fulfill your professional aspirations. Direct positions and temporary/PRN/per diem assignments are available immediately.
       </li>
-      <li className="list-disc font-Georgia my-1">
+      <li className="list-disc font-serif my-1">
         <b>Access to best employers: </b>Morgans Med Staffing has built strong partnerships with the most trusted and well-known healthcare organizations. We’ll connect you to the hidden job market, providing access to opportunities that never get advertised.
       </li>
     </ul>
@@ -158,7 +158,7 @@ const Jobs = () => {
 
       <div className='flex-wrap '>
         <div className='mx-10'>
-          <p className='text-3xl font-Georgia my-4'>Healthcare Professionals Morgans Med Staffing Places:</p>
+          <p className='text-3xl font-serif my-4'>Healthcare Professionals Morgans Med Staffing Places:</p>
 
           <div>
             <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
@@ -168,12 +168,12 @@ const Jobs = () => {
               <AccordionDetails>
                 <Typography>
                   <ul>
-                    <li className="list-disc font-Georgia my-1 mx-10">Dietitian/Nutritionist</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Diagnostic Medical Sonographist</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Medical Assistant</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Epidemiologist</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Phlebotomist</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Surgical Technologist</li>
+                    <li className="list-disc font-serif my-1 mx-10">Dietitian/Nutritionist</li>
+                    <li className="list-disc font-serif my-1 mx-10">Diagnostic Medical Sonographist</li>
+                    <li className="list-disc font-serif my-1 mx-10">Medical Assistant</li>
+                    <li className="list-disc font-serif my-1 mx-10">Epidemiologist</li>
+                    <li className="list-disc font-serif my-1 mx-10">Phlebotomist</li>
+                    <li className="list-disc font-serif my-1 mx-10">Surgical Technologist</li>
                   </ul>
                 </Typography>
               </AccordionDetails>
@@ -186,15 +186,15 @@ const Jobs = () => {
               <AccordionDetails>
                 <Typography>
                   <ul>
-                    <li className="list-disc font-Georgia my-1 mx-10">Registered Nurse</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Licensed Vocational Nurse</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Operating Room Nurse</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Case Management Nurse</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Clinical Nurse Manager</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Triage Nurse – Specialty Clinic</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Pre-Op Nurse</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">PACU Nurse</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Cath Lab Nurse</li>
+                    <li className="list-disc font-serif my-1 mx-10">Registered Nurse</li>
+                    <li className="list-disc font-serif my-1 mx-10">Licensed Vocational Nurse</li>
+                    <li className="list-disc font-serif my-1 mx-10">Operating Room Nurse</li>
+                    <li className="list-disc font-serif my-1 mx-10">Case Management Nurse</li>
+                    <li className="list-disc font-serif my-1 mx-10">Clinical Nurse Manager</li>
+                    <li className="list-disc font-serif my-1 mx-10">Triage Nurse – Specialty Clinic</li>
+                    <li className="list-disc font-serif my-1 mx-10">Pre-Op Nurse</li>
+                    <li className="list-disc font-serif my-1 mx-10">PACU Nurse</li>
+                    <li className="list-disc font-serif my-1 mx-10">Cath Lab Nurse</li>
                   </ul>
                 </Typography>
               </AccordionDetails>
@@ -208,22 +208,22 @@ const Jobs = () => {
                 <Typography>
                   <div className='flex justify-around items-center'>
                     <ul>
-                      <li className="list-disc font-Georgia my-1">Accountant</li>
-                      <li className="list-disc font-Georgia my-1">Accounting Coordinator</li>
-                      <li className="list-disc font-Georgia my-1">Accounting Clerk</li>
-                      <li className="list-disc font-Georgia my-1">Medical Biller</li>
-                      <li className="list-disc font-Georgia my-1">Medical Coder</li>
-                      <li className="list-disc font-Georgia my-1">Accounts Receivable Analyst</li>
+                      <li className="list-disc font-serif my-1">Accountant</li>
+                      <li className="list-disc font-serif my-1">Accounting Coordinator</li>
+                      <li className="list-disc font-serif my-1">Accounting Clerk</li>
+                      <li className="list-disc font-serif my-1">Medical Biller</li>
+                      <li className="list-disc font-serif my-1">Medical Coder</li>
+                      <li className="list-disc font-serif my-1">Accounts Receivable Analyst</li>
                     </ul>
 
 
                     <ul>
-                      <li className="list-disc font-Georgia my-1">Accounts Receivable Specialist</li>
-                      <li className="list-disc font-Georgia my-1">Collections Specialist</li>
-                      <li className="list-disc font-Georgia my-1">Claims Examiner</li>
-                      <li className="list-disc font-Georgia my-1">Customer Service Representative</li>
-                      <li className="list-disc font-Georgia my-1">Medical Claims Specialist</li>
-                      <li className="list-disc font-Georgia my-1">Financial Analyst</li>
+                      <li className="list-disc font-serif my-1">Accounts Receivable Specialist</li>
+                      <li className="list-disc font-serif my-1">Collections Specialist</li>
+                      <li className="list-disc font-serif my-1">Claims Examiner</li>
+                      <li className="list-disc font-serif my-1">Customer Service Representative</li>
+                      <li className="list-disc font-serif my-1">Medical Claims Specialist</li>
+                      <li className="list-disc font-serif my-1">Financial Analyst</li>
                     </ul>
                   </div>
                 </Typography>
@@ -237,19 +237,19 @@ const Jobs = () => {
               <AccordionDetails>
                 <Typography>
                   <ul>
-                    <li className="list-disc font-Georgia my-1 mx-10">Medical Office Specialist</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Scheduler</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Insurance Verification Specialist</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Clinic Coordinator</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Office Manager</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Receptionist</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Administrative Assistant</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Executive Assistant</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Human Resource Assistant</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">File Clerk</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">General Clerk</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Member Service Associate</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Staffing Coordinator</li>
+                    <li className="list-disc font-serif my-1 mx-10">Medical Office Specialist</li>
+                    <li className="list-disc font-serif my-1 mx-10">Scheduler</li>
+                    <li className="list-disc font-serif my-1 mx-10">Insurance Verification Specialist</li>
+                    <li className="list-disc font-serif my-1 mx-10">Clinic Coordinator</li>
+                    <li className="list-disc font-serif my-1 mx-10">Office Manager</li>
+                    <li className="list-disc font-serif my-1 mx-10">Receptionist</li>
+                    <li className="list-disc font-serif my-1 mx-10">Administrative Assistant</li>
+                    <li className="list-disc font-serif my-1 mx-10">Executive Assistant</li>
+                    <li className="list-disc font-serif my-1 mx-10">Human Resource Assistant</li>
+                    <li className="list-disc font-serif my-1 mx-10">File Clerk</li>
+                    <li className="list-disc font-serif my-1 mx-10">General Clerk</li>
+                    <li className="list-disc font-serif my-1 mx-10">Member Service Associate</li>
+                    <li className="list-disc font-serif my-1 mx-10">Staffing Coordinator</li>
                   </ul>
                 </Typography>
               </AccordionDetails>
@@ -262,15 +262,15 @@ const Jobs = () => {
               <AccordionDetails>
                 <Typography>
                   <ul>
-                    <li className="list-disc font-Georgia my-1 mx-10">Radiological Technologist (ARRT & LMRT)</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">CT Technologist</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">MRI Technologist</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Sonographer</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Medical Assistant</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Clinic Coordinator</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Medical Office Specialist</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Scheduler</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Mammographer</li>
+                    <li className="list-disc font-serif my-1 mx-10">Radiological Technologist (ARRT & LMRT)</li>
+                    <li className="list-disc font-serif my-1 mx-10">CT Technologist</li>
+                    <li className="list-disc font-serif my-1 mx-10">MRI Technologist</li>
+                    <li className="list-disc font-serif my-1 mx-10">Sonographer</li>
+                    <li className="list-disc font-serif my-1 mx-10">Medical Assistant</li>
+                    <li className="list-disc font-serif my-1 mx-10">Clinic Coordinator</li>
+                    <li className="list-disc font-serif my-1 mx-10">Medical Office Specialist</li>
+                    <li className="list-disc font-serif my-1 mx-10">Scheduler</li>
+                    <li className="list-disc font-serif my-1 mx-10">Mammographer</li>
                   </ul>
                 </Typography>
               </AccordionDetails>
@@ -283,12 +283,12 @@ const Jobs = () => {
               <AccordionDetails>
                 <Typography>
                   <ul>
-                    <li className="list-disc font-Georgia my-1 mx-10">Dental Assistant</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Dental Hygienist</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Lab Technician/Ceramist</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Front Office Specialist</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Treatment Coordinator</li>
-                    <li className="list-disc font-Georgia my-1 mx-10">Clinic Coordinator</li>
+                    <li className="list-disc font-serif my-1 mx-10">Dental Assistant</li>
+                    <li className="list-disc font-serif my-1 mx-10">Dental Hygienist</li>
+                    <li className="list-disc font-serif my-1 mx-10">Lab Technician/Ceramist</li>
+                    <li className="list-disc font-serif my-1 mx-10">Front Office Specialist</li>
+                    <li className="list-disc font-serif my-1 mx-10">Treatment Coordinator</li>
+                    <li className="list-disc font-serif my-1 mx-10">Clinic Coordinator</li>
                   </ul>
                 </Typography>
               </AccordionDetails>
