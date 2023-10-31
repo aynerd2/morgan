@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 
@@ -7,13 +7,10 @@ const NewHeader = () => {
 
 
   const navigate = useNavigate();
-
-  const handleApplyClick = () => {
-    navigate('/application');
-  };
+  const location = useLocation(); 
 
   const home = () => {
-    navigate('/');
+    navigate('/home');
   };
 
 
@@ -39,14 +36,18 @@ const NewHeader = () => {
   
             
     <nav className='p-5 bg-white sticky top-0 z-10 shadow md:flex md:items-center md:justify-between'>
+
+
       <div className='flex justify-between items-center'>
-        <span className='text-xl font-serif cursor-pointer'>
-          <img
-            src='./assets/mmslogo.png'
-            className='h-8 md:h-10 lg:h-14 inline cursor-pointer'
-            alt='MMS Logo'
-            onClick={home}
-          />
+
+        <span className='text-xl font-sans cursor-pointer'>
+          <a href="#" onClick={() => window.location.reload()}>
+            <img
+              src='./assets/mmslogo.png'
+              className='h-12 md:h-16 lg:h-20 inline cursor-pointer'
+              alt='MMS Logo'
+            />
+          </a>
         </span>
 
         <div className='cursor-pointer mx-2 md:hidden block'>
@@ -56,6 +57,7 @@ const NewHeader = () => {
         </div>
       </div>
 
+      {location.pathname !== '/application' && (
       <ul
         className={`md:flex md:items-center z-10 md:z-auto 
           md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 
@@ -64,8 +66,8 @@ const NewHeader = () => {
       >
         <li className='mx-4 my-6 md:my-0'>
           <a 
-          onClick={home}
-          className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
+          onClick={() => smoothScrollTo('Home')}
+          className='text-lg duration-500 font-sans cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
             Home
           </a>
         </li>
@@ -73,8 +75,8 @@ const NewHeader = () => {
         <li className='mx-4 my-6 md:my-0'>
           <a
           onClick={() => smoothScrollTo('Jobs')}
-          className='text-sm duration-500 
-            font-serif cursor-pointer
+          className='text-lg duration-500 
+            font-sans cursor-pointer
            hover:text-white
            hover:bg-blue-200 p-1'>
             Job Seekers
@@ -84,7 +86,7 @@ const NewHeader = () => {
         <li className='mx-4 my-6 md:my-0'>
           <a 
            onClick={() => smoothScrollTo('Employers')} 
-          className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
+          className='text-lg duration-500 font-sans cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
             Employers
           </a>
         </li>
@@ -92,7 +94,7 @@ const NewHeader = () => {
         <li className='mx-4 my-6 md:my-0'>
           <a 
           onClick={() => smoothScrollTo('About')}
-          className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
+          className='text-lg duration-500 font-sans cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
             About
           </a>
         </li>
@@ -100,20 +102,23 @@ const NewHeader = () => {
         <li className='mx-4 my-6 md:my-0'>
           <a 
            onClick={() => smoothScrollTo('Contact')}
-          className='text-sm duration-500 font-serif cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
+          className='text-lg duration-500 font-sans cursor-pointer hover:text-white hover:bg-blue-200 p-1'>
             Contact Us
           </a>
         </li>
 
-        <button 
-        className='bg-blue-200
-         text-white font-serif 
-         rounded-sm hover:bg-blue-300 
-         duration-500 py-2 px-6 mx-4'
-         onClick={handleApplyClick}>
-          Apply Today
-        </button>
+       
+        <a href="/application" target="_blank" rel="noopener noreferrer">
+          <button
+            className="bg-blue-200 text-white font-sans rounded-sm hover:bg-blue-300 duration-500 py-2 px-6 mx-4"
+          >
+            Apply Today
+          </button>
+        </a>
       </ul>
+      )}
+
+
     </nav>
 
    

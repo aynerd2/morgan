@@ -14,14 +14,14 @@ function App() {
 
   return (
       <Router>
-         <div className="App">
-         <NewHeader />
+
+         <div className="w-full aspect-auto">
+         {/* <NewHeader /> */}
          <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/application" element={<Application />} />
           <Route path="/benefits" element={<Benefits />} />
           <Route path="/hireingprocess" element={<HireingProcess />} />
-        
+          <Route path="/application" element={<Application />} />
         </Routes>
          </div>
        

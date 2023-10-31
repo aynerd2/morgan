@@ -5,6 +5,7 @@ import { useScroll, useTransform } from "framer-motion";
 import About from "./About";  
 import Contact from "./Contact";
 import Footer from "./Footer"
+import NewHeader from "./NewHeader";
 
 
 const Home = () => {
@@ -31,6 +32,7 @@ const Home = () => {
   return (
     <>
 
+<NewHeader/>
     
       <div id="Home">
   
@@ -39,12 +41,10 @@ const Home = () => {
           <div className="absolute inset-0 bg-black opacity-40"></div>
 
           <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
-            <p className="text-3xl md:text-5xl font-serif font-semibold text-white text-center md:text-left">Morgans Med Staffing</p>
-            <p className="text-lg md:text-xl font-serif text-center md:text-center mb-4">
+            <p className="text-3xl md:text-5xl font-sans font-semibold text-white text-center md:text-left">Morgans Med Staffing</p>
+            <p className="text-lg md:text-xl font-sans text-center md:text-center mb-4">
               We provide custom staffing solutions to healthcare organizations.
             </p>
-
-
           </div>
         </div>
 
